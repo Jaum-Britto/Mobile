@@ -1,6 +1,6 @@
 <?php
                 $nome=$_POST['nome'];
-                $conexao =    mysqli_connect('35.238.202.154','Mob','usbw');
+                $conexao =    mysqli_connect('34.42.216.142','Mob','usbw');
                 mysqli_select_db($conexao,'jogos');
                 $sql=" select    * from
         jogos    where    Nome    like    '$nome'";
